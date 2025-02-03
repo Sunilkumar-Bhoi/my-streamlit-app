@@ -48,7 +48,7 @@ def create_streamlit_app(llm, clean_text):
    
    
     
-    url_input = st.text_input("Enter a URL:", value="https://indianexpress.com", help="Paste a valid news article URL here.")
+    url_input = st.text_input("Enter a URL:", value="Please Enter a Link", help="Paste a valid news article URL here.")
     submit_button = st.button("🚀 Summarize Now")
 
     if submit_button and url_input:
